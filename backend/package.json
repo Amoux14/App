@@ -1,0 +1,21 @@
+{
+  "name": "caresathi-backend",
+  "version": "1.0.0",
+  "description": "Backend server for the CareSaathi Flutter app.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "gateway": "node gateway.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.3",
+    "express": "^4.18.4",
+    "mongoose": "^9.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
