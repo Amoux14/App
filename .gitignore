@@ -43,3 +43,58 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+.gradle/
+local.properties
+*.iml
+*.iml.bak
+
+# Node.js / Backend
+backend/node_modules/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - Android Studio / IntelliJ
+.idea/
+*.ipr
+*.iws
+gradle.properties
+
+# IDE - Xcode
+*.xcworkspace
+*.xcodeproj
+Pods/
+Podfile.lock
+
+# Platform-specific build directories
+/linux/flutter/ephemeral/
+/macos/Flutter/Flutter-Debug.xcconfig
+/macos/Flutter/Flutter-Release.xcconfig
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/windows/flutter/ephemeral/
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugin_registrant.h
+
+# Generated files
+GeneratedPluginRegistrant.*
+generated_plugin_registrant.*
+
+# Misc
+*.lock
+.packages
+pubspec.lock
+.coverage/
+coverage/
+.DS_Store
+Thumbs.db
